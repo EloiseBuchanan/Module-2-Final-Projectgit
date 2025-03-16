@@ -58,6 +58,18 @@ section {
     position: relative;
 }
 
+.nav__link--primary {
+    margin: 0;
+    padding: 10px 32px;
+    margin-top: 2px;
+    border-radius: 9989px;
+    border: none;
+    background-color: #6415FF;
+    color: white;
+    line-height: 1.5;
+    width: auto;
+}
+
 .nav__link {
     margin: 0 24px;
 }
@@ -109,6 +121,30 @@ h1 {
 
 .header__description--para {
     margin: 20px 2px;
+}
+
+.header__email--input {
+    width: 100%;
+    padding: 20px 192px 20px 32px;
+    border-radius: 500px;
+    border: 2px solid rgb(229,231,235);
+    color: black;
+    font-size: 16px;
+    font-weight: 500px;
+    z-index: 1;
+}
+
+.header__email--btn {
+    z-index: 2;
+    margin: 8px;
+    height: calc(100% - 16px);
+    border-radius: 500px;
+    width: 160px;
+    border: none;
+    background-color: #6415FF;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .header__img--wrapper {
