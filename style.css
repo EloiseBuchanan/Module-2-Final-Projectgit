@@ -19,7 +19,9 @@ a {
     margin: 0 auto;
 }
 
-
+span {
+    color: #6415FF;
+}
 
 section {
     padding: 0 32px;
@@ -84,6 +86,11 @@ section {
 
 /* HEADER */
 
+
+.container {
+    padding: 96px 0;
+}
+
 .header__row {
     display: flex;
     justify-content: center;
@@ -92,6 +99,16 @@ section {
 
 .header__description {
     width: 40%;
+}
+
+h1 {
+    font-size: 48px;
+    color: #1a202c;
+    line-height: 1.25;
+}
+
+.header__description--para {
+    margin: 20px 2px;
 }
 
 .header__img--wrapper {
