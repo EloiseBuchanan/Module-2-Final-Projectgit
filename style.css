@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
 
 * {
+    margin: 0;
     padding: 0;
     font-family: 'Inter', system-ui;
     box-sizing: border-box;
@@ -10,14 +11,15 @@
 a {
     display: inline;
     text-decoration: none;
-    padding: 0 10px;
 }
 
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
+
+
 
 section {
     padding: 0 32px;
@@ -32,30 +34,11 @@ section {
     padding-top: 32px;
 }
 
-.nav__logo {
-    display: flex;
-    align-items: center;
-}
-
-.nav__logo--img {
-    width: 40px;
-    height: 40px;
-}
-
-.nav__logo--title {
-    font-size: 24px;
-    font-weight: 900;
-    margin-left: 12px;
-    padding-bottom: 2px;
-    color: #243E63;
-}
-
 .nav__row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    margin: 0 80px;
+    margin-top: 20px;
 }
 
 .nav_links {
@@ -69,6 +52,34 @@ section {
     font-weight: 600;
     padding-top: 4px;
     letter-spacing: 0.35px;
+    border-bottom: 2px solid transparent;
+    position: relative;
+}
+
+.nav__link {
+    margin: 0 24px;
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    padding-bottom: 4px;
+}
+
+.nav__logo--img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav__logo--title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 12px;
+    letter-spacing: 0.6px;
+    padding-bottom: 2px;
     color: #243E63;
 }
+
+
 
