@@ -1,14 +1,16 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
 
 * {
-    margin: 0;
     padding: 0;
     font-family: 'Inter', system-ui;
     box-sizing: border-box;
+    color: #243e63;
 }
 
 a {
+    display: inline;
     text-decoration: none;
+    padding: 0 10px;
 }
 
 .row {
@@ -17,12 +19,17 @@ a {
     margin: 0 auto;
 }
 
+section {
+    padding: 0 32px;
+}
+
+
 /* NAVIGATION */
+
 
 .nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 32px;
 }
 
 .nav__logo {
@@ -40,6 +47,7 @@ a {
     font-weight: 900;
     margin-left: 12px;
     padding-bottom: 2px;
+    color: #243E63;
 }
 
 .nav__row {
@@ -47,6 +55,13 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    margin: 0 80px;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
 }
 
 .nav__link {
@@ -54,4 +69,6 @@ a {
     font-weight: 600;
     padding-top: 4px;
     letter-spacing: 0.35px;
+    color: #243E63;
 }
+
