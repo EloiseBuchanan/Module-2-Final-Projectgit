@@ -31,6 +31,13 @@ section {
     padding: 96px 0;
 }
 
+.btn {
+    border-radius: 500px;
+    width: 160px;
+    border: none;
+    background-color: #6415FF;
+    color: white;
+}
 
 
 
@@ -261,3 +268,8 @@ h1 {
 .quality__img {
     width: 100%;
 }
+
+
+/* STEPS SECTION */
+
+
