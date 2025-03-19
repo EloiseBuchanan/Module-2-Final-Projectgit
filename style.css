@@ -37,6 +37,7 @@ section {
     border: none;
     background-color: #6415FF;
     color: white;
+    margin-top: 30px;
 }
 
 
@@ -260,6 +261,7 @@ h1 {
 .quality__description {
     display: flex;
     flex-direction: column;
+    margin-right: 50px;
 }
 
 
@@ -339,4 +341,44 @@ h1 {
 
 
 
-.
+.values__row {
+    display: flex;
+    align-items: center;
+}
+
+.values__description, .values__img--wrapper {
+    width: 50%;
+}
+
+.values__description {
+    margin-right: 50px;
+}
+
+.values__list {
+    display: flex;
+}
+
+.value__img--wrapper, .value__name {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.value__title {
+    display: flex;
+}
+
+.dollar {
+    background-color: #9ae6b4;
+    border-radius: 50px;
+}
+
+.suitcase {
+    background-color: #feb2b2;
+    border-radius: 50px;
+}
+
+
+.values__img {
+    width: 100%;
+}
