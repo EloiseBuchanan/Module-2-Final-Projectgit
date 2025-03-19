@@ -356,12 +356,17 @@ h1 {
 
 .values__list {
     display: flex;
+    margin-top: 30px;
 }
 
 .value__img--wrapper, .value__name {
     padding: 10px;
     display: flex;
     flex-direction: column;
+}
+
+.value {
+    width: 100%;
 }
 
 .value__title {
