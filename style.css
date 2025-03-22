@@ -571,3 +571,17 @@ h1 {
     width: 100%;
 }
 
+.testimonial__person {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.person__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
