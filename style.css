@@ -158,6 +158,20 @@ section {
     color: #243E63;
 }
 
+@media (max-width: 550px) {
+    .nav__links {
+        display: flex;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .menu__links {
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
 
 /* HEADER */
 
