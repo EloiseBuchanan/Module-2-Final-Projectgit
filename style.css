@@ -131,6 +131,18 @@ nav {
     filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg) brightness(94%) contrast(115%);
 }
 
+.nav__link--primary {
+    margin: 0;
+    padding: 10px 32px;
+    margin-top: 2px;
+    border-radius: 9989px;
+    border: none;
+    background-color: #6415FF;
+    color: white;
+    line-height: 1.5;
+    width: auto;
+}
+
 .menu {
     position: fixed;
     top: 0;
@@ -194,18 +206,6 @@ nav {
     letter-spacing: 0.35px;
     border-bottom: 2px solid transparent;
     position: relative;
-}
-
-.nav__link--primary {
-    margin: 0;
-    padding: 10px 32px;
-    margin-top: 2px;
-    border-radius: 9989px;
-    border: none;
-    background-color: #6415FF;
-    color: white;
-    line-height: 1.5;
-    width: auto;
 }
 
 .nav__link {
