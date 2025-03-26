@@ -682,6 +682,10 @@ p {
     width: 50%;
 }
 
+.testimonials__row {
+    display: flex;
+}
+
 .testimonials__description {
     display: flex;
     flex-direction: column;
@@ -719,7 +723,6 @@ p {
 
 .testimonial__profile {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -747,10 +750,22 @@ p {
 
 .testimonial__buttons {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    margin-left: 150px;
 }
 
+.testimonial__left {
+    border: none;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+.testimonial__right {
+    border: none;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin-left: 8px;
+}
 
 
 /* START SECTION */
