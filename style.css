@@ -258,7 +258,7 @@ nav {
 }
 
 .header__description {
-    width: 40%;
+    width: 50%;
 }
 
 h1 {
@@ -295,6 +295,7 @@ p {
     font-size: 16px;
     font-weight: 500px;
     z-index: 1;
+    position: absolute;
 }
 
 .header__email--btn {
