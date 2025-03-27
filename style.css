@@ -134,12 +134,11 @@ nav {
 .nav__link--primary {
     margin: 0;
     padding: 10px 32px;
-    margin-top: 2px;
-    border-radius: 9989px;
+    border-radius: 50px;
     border: none;
     background-color: #6415FF;
     color: white;
-    line-height: 1.5;
+    line-height: 0px;
     width: auto;
 }
 
@@ -304,6 +303,7 @@ p {
     width: 160px;
     border: none;
     padding: 12px 32px;
+    margin-right: 10px;
     background-color: #6415FF;
     color: white;
     font-weight: 700;
